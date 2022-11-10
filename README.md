@@ -26,3 +26,13 @@ Check system -
 | Run docker image instantly(closes if you close terminal) | ```sudo docker run -it -p 5000:5000 --name server1 sbssunu/demopyapp:v1.0.0``` |
 
 | Access your python app | http://<public/vm-ip-address>:5000``` |
+
+
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
