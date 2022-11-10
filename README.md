@@ -21,11 +21,11 @@ Check system -
 | Access your python app | http://<public/vm-ip-address>:5000``` |
 
 
-| Plugin | README |
+| Instructions | Commands |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
+| First clone this file to your local machine | ```git clone https://github.com/devopslearning-0/sample-pyhton-devops.git``` |
+| Enter into the file | ```cd sample-pyhton-devops``` |
+| Build docker image | ```sudo docker build -t <dockerhub-username>/<image-name>:<version> .``` |
+| example | ```sudo docker build -t sbssunu/demopyapp:v1.0.0 .``` |
+| Check if docker image created | ```sudo docker images``` |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
