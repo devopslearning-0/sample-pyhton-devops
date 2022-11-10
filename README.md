@@ -21,3 +21,6 @@ Check system -
 | Run docker image permanently(in the background) | ```sudo docker run -it -p 5000:5000 --name server1 sbssunu/demopyapp:v1.0.0``` |
 | Run docker image instantly(closes if you close terminal) | ```sudo docker run -it -p 5000:5000 --name server1 sbssunu/demopyapp:v1.0.0``` |
 | Access your python app | http://<public/vm-ip-address>:5000 |
+
+
+Note:- You can change port in ```app.py``` file and also change port in each and every command and ```dockerfile```.
